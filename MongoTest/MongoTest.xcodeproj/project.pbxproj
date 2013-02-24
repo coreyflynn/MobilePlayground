@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E2432A16AB54DD00CB5B5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2432916AB54DD00CB5B5F /* UIKit.framework */; };
+		48E2432C16AB54DD00CB5B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2432B16AB54DD00CB5B5F /* Foundation.framework */; };
+		48E2432E16AB54DD00CB5B5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2432D16AB54DD00CB5B5F /* CoreGraphics.framework */; };
+		48E2433416AB54DD00CB5B5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48E2433216AB54DD00CB5B5F /* InfoPlist.strings */; };
+		48E2433716AB54DD00CB5B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E2433616AB54DD00CB5B5F /* main.m */; };
+		48E2433A16AB54DD00CB5B5F /* MongoTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E2433916AB54DD00CB5B5F /* MongoTestAppDelegate.m */; };
+		48E2433D16AB54DD00CB5B5F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E2433B16AB54DD00CB5B5F /* MainWindow.xib */; };
+		48E2434016AB54DD00CB5B5F /* MongoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E2433F16AB54DD00CB5B5F /* MongoTestViewController.m */; };
+		48E2434316AB54DD00CB5B5F /* MongoTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E2434116AB54DD00CB5B5F /* MongoTestViewController.xib */; };
+		48E2434A16AB54DE00CB5B5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2432916AB54DD00CB5B5F /* UIKit.framework */; };
+		48E2434B16AB54DE00CB5B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2432B16AB54DD00CB5B5F /* Foundation.framework */; };
+		48E2434C16AB54DE00CB5B5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2432D16AB54DD00CB5B5F /* CoreGraphics.framework */; };
+		48E2435416AB54DE00CB5B5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48E2435216AB54DE00CB5B5F /* InfoPlist.strings */; };
+		48E2435716AB54DE00CB5B5F /* MongoTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 48E2435616AB54DE00CB5B5F /* MongoTestTests.h */; };
+		48E2435916AB54DE00CB5B5F /* MongoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E2435816AB54DE00CB5B5F /* MongoTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48E2434D16AB54DE00CB5B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48E2431C16AB54DD00CB5B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E2432416AB54DD00CB5B5F;
+			remoteInfo = MongoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48E2432516AB54DD00CB5B5F /* MongoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E2432916AB54DD00CB5B5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48E2432B16AB54DD00CB5B5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48E2432D16AB54DD00CB5B5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48E2433116AB54DD00CB5B5F /* MongoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MongoTest-Info.plist"; sourceTree = "<group>"; };
+		48E2433316AB54DD00CB5B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48E2433516AB54DD00CB5B5F /* MongoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongoTest-Prefix.pch"; sourceTree = "<group>"; };
+		48E2433616AB54DD00CB5B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48E2433816AB54DD00CB5B5F /* MongoTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MongoTestAppDelegate.h; sourceTree = "<group>"; };
+		48E2433916AB54DD00CB5B5F /* MongoTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MongoTestAppDelegate.m; sourceTree = "<group>"; };
+		48E2433C16AB54DD00CB5B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		48E2433E16AB54DD00CB5B5F /* MongoTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MongoTestViewController.h; sourceTree = "<group>"; };
+		48E2433F16AB54DD00CB5B5F /* MongoTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MongoTestViewController.m; sourceTree = "<group>"; };
+		48E2434216AB54DD00CB5B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MongoTestViewController.xib; sourceTree = "<group>"; };
+		48E2434916AB54DE00CB5B5F /* MongoTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E2435116AB54DE00CB5B5F /* MongoTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MongoTestTests-Info.plist"; sourceTree = "<group>"; };
+		48E2435316AB54DE00CB5B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48E2435516AB54DE00CB5B5F /* MongoTestTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongoTestTests-Prefix.pch"; sourceTree = "<group>"; };
+		48E2435616AB54DE00CB5B5F /* MongoTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MongoTestTests.h; sourceTree = "<group>"; };
+		48E2435816AB54DE00CB5B5F /* MongoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MongoTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E2432216AB54DD00CB5B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E2432A16AB54DD00CB5B5F /* UIKit.framework in Frameworks */,
+				48E2432C16AB54DD00CB5B5F /* Foundation.framework in Frameworks */,
+				48E2432E16AB54DD00CB5B5F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E2434516AB54DE00CB5B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E2434A16AB54DE00CB5B5F /* UIKit.framework in Frameworks */,
+				48E2434B16AB54DE00CB5B5F /* Foundation.framework in Frameworks */,
+				48E2434C16AB54DE00CB5B5F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48E2431A16AB54DD00CB5B5F = {
+			isa = PBXGroup;
+			children = (
+				48E2432F16AB54DD00CB5B5F /* MongoTest */,
+				48E2434F16AB54DE00CB5B5F /* MongoTestTests */,
+				48E2432816AB54DD00CB5B5F /* Frameworks */,
+				48E2432616AB54DD00CB5B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48E2432616AB54DD00CB5B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E2432516AB54DD00CB5B5F /* MongoTest.app */,
+				48E2434916AB54DE00CB5B5F /* MongoTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48E2432816AB54DD00CB5B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48E2432916AB54DD00CB5B5F /* UIKit.framework */,
+				48E2432B16AB54DD00CB5B5F /* Foundation.framework */,
+				48E2432D16AB54DD00CB5B5F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48E2432F16AB54DD00CB5B5F /* MongoTest */ = {
+			isa = PBXGroup;
+			children = (
+				48E2433816AB54DD00CB5B5F /* MongoTestAppDelegate.h */,
+				48E2433916AB54DD00CB5B5F /* MongoTestAppDelegate.m */,
+				48E2433B16AB54DD00CB5B5F /* MainWindow.xib */,
+				48E2433E16AB54DD00CB5B5F /* MongoTestViewController.h */,
+				48E2433F16AB54DD00CB5B5F /* MongoTestViewController.m */,
+				48E2434116AB54DD00CB5B5F /* MongoTestViewController.xib */,
+				48E2433016AB54DD00CB5B5F /* Supporting Files */,
+			);
+			path = MongoTest;
+			sourceTree = "<group>";
+		};
+		48E2433016AB54DD00CB5B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E2433116AB54DD00CB5B5F /* MongoTest-Info.plist */,
+				48E2433216AB54DD00CB5B5F /* InfoPlist.strings */,
+				48E2433516AB54DD00CB5B5F /* MongoTest-Prefix.pch */,
+				48E2433616AB54DD00CB5B5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48E2434F16AB54DE00CB5B5F /* MongoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				48E2435616AB54DE00CB5B5F /* MongoTestTests.h */,
+				48E2435816AB54DE00CB5B5F /* MongoTestTests.m */,
+				48E2435016AB54DE00CB5B5F /* Supporting Files */,
+			);
+			path = MongoTestTests;
+			sourceTree = "<group>";
+		};
+		48E2435016AB54DE00CB5B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E2435116AB54DE00CB5B5F /* MongoTestTests-Info.plist */,
+				48E2435216AB54DE00CB5B5F /* InfoPlist.strings */,
+				48E2435516AB54DE00CB5B5F /* MongoTestTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E2432416AB54DD00CB5B5F /* MongoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E2435C16AB54DE00CB5B5F /* Build configuration list for PBXNativeTarget "MongoTest" */;
+			buildPhases = (
+				48E2432116AB54DD00CB5B5F /* Sources */,
+				48E2432216AB54DD00CB5B5F /* Frameworks */,
+				48E2432316AB54DD00CB5B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoTest;
+			productName = MongoTest;
+			productReference = 48E2432516AB54DD00CB5B5F /* MongoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48E2434816AB54DE00CB5B5F /* MongoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E2435F16AB54DE00CB5B5F /* Build configuration list for PBXNativeTarget "MongoTestTests" */;
+			buildPhases = (
+				48E2434416AB54DE00CB5B5F /* Sources */,
+				48E2434516AB54DE00CB5B5F /* Frameworks */,
+				48E2434616AB54DE00CB5B5F /* Resources */,
+				48E2434716AB54DE00CB5B5F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E2434E16AB54DE00CB5B5F /* PBXTargetDependency */,
+			);
+			name = MongoTestTests;
+			productName = MongoTestTests;
+			productReference = 48E2434916AB54DE00CB5B5F /* MongoTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E2431C16AB54DD00CB5B5F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 48E2431F16AB54DD00CB5B5F /* Build configuration list for PBXProject "MongoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48E2431A16AB54DD00CB5B5F;
+			productRefGroup = 48E2432616AB54DD00CB5B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E2432416AB54DD00CB5B5F /* MongoTest */,
+				48E2434816AB54DE00CB5B5F /* MongoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E2432316AB54DD00CB5B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E2433416AB54DD00CB5B5F /* InfoPlist.strings in Resources */,
+				48E2433D16AB54DD00CB5B5F /* MainWindow.xib in Resources */,
+				48E2434316AB54DD00CB5B5F /* MongoTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E2434616AB54DE00CB5B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E2435416AB54DE00CB5B5F /* InfoPlist.strings in Resources */,
+				48E2435716AB54DE00CB5B5F /* MongoTestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E2434716AB54DE00CB5B5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E2432116AB54DD00CB5B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E2433716AB54DD00CB5B5F /* main.m in Sources */,
+				48E2433A16AB54DD00CB5B5F /* MongoTestAppDelegate.m in Sources */,
+				48E2434016AB54DD00CB5B5F /* MongoTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E2434416AB54DE00CB5B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E2435916AB54DE00CB5B5F /* MongoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48E2434E16AB54DE00CB5B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E2432416AB54DD00CB5B5F /* MongoTest */;
+			targetProxy = 48E2434D16AB54DE00CB5B5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48E2433216AB54DD00CB5B5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E2433316AB54DD00CB5B5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48E2433B16AB54DD00CB5B5F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E2433C16AB54DD00CB5B5F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		48E2434116AB54DD00CB5B5F /* MongoTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E2434216AB54DD00CB5B5F /* en */,
+			);
+			name = MongoTestViewController.xib;
+			sourceTree = "<group>";
+		};
+		48E2435216AB54DE00CB5B5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E2435316AB54DE00CB5B5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48E2435A16AB54DE00CB5B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48E2435B16AB54DE00CB5B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		48E2435D16AB54DE00CB5B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongoTest/MongoTest-Prefix.pch";
+				INFOPLIST_FILE = "MongoTest/MongoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48E2435E16AB54DE00CB5B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongoTest/MongoTest-Prefix.pch";
+				INFOPLIST_FILE = "MongoTest/MongoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48E2436016AB54DE00CB5B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MongoTest.app/MongoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongoTestTests/MongoTestTests-Prefix.pch";
+				INFOPLIST_FILE = "MongoTestTests/MongoTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		48E2436116AB54DE00CB5B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MongoTest.app/MongoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongoTestTests/MongoTestTests-Prefix.pch";
+				INFOPLIST_FILE = "MongoTestTests/MongoTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48E2431F16AB54DD00CB5B5F /* Build configuration list for PBXProject "MongoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E2435A16AB54DE00CB5B5F /* Debug */,
+				48E2435B16AB54DE00CB5B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E2435C16AB54DE00CB5B5F /* Build configuration list for PBXNativeTarget "MongoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E2435D16AB54DE00CB5B5F /* Debug */,
+				48E2435E16AB54DE00CB5B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48E2435F16AB54DE00CB5B5F /* Build configuration list for PBXNativeTarget "MongoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E2436016AB54DE00CB5B5F /* Debug */,
+				48E2436116AB54DE00CB5B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E2431C16AB54DD00CB5B5F /* Project object */;
+}
